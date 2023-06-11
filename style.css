@@ -1,0 +1,59 @@
+body{
+        background-color: rgba(40, 226, 217, 0.521);
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+       
+}
+@keyframes animate
+{
+    0%,100%,100%
+    {
+        width:  0;
+    }
+    100%,100%
+    {
+        width: 100%;
+    }
+}
+
+h1{
+    color: black;
+
+}
+#connect {
+    
+        background-color: rgb(211, 37, 202);
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+      
+}
+
+#deposit {
+        background-color: rgb(231, 34, 100);
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+#withdraw  {
+        background-color: rgb(9, 236, 21);
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+#amount {
+    font-size: 40px;
+}
+
+#balance {
+    font-size: 40px;
+}
+
+#re {
+         position: fixed;
+         bottom: 0;
+         animation: animate 3s reverse infinite;
+}
